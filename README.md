@@ -11,9 +11,10 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
   [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite)](https://vitejs.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+  <br>
+  <b>Live Demo:</b> <a href="https://intent-path-ai.vercel.app/" target="_blank">https://intent-path-ai.vercel.app/</a>
 </div>
 
----
 
 ## 📖 Overview
 
@@ -21,7 +22,11 @@ Traditional global mobility tools are rigid, form-based, and intimidating. They 
 
 **IntentPath AI** flips this model. It starts with **human intent**—your life goals, career aspirations, and timeline—and uses advanced AI reasoning to reverse-engineer the most viable immigration pathways. It transforms complex legal frameworks into a clear, strategic roadmap for your future.
 
-![IntentPath AI Preview](public/assets/intentpath-hero-1.png)
+<div align="center">
+  <img src="public/assets/intentpath-hero-1.png" alt="IntentPath AI Hero Preview" width="600" />
+  <br>
+  <em>IntentPath AI – Human Intent to Pathway Visualization</em>
+</div>
 
 ## ✨ What Makes IntentPath AI Different
 
@@ -100,10 +105,9 @@ IntentPath-AI/
 
 ### Prerequisites
 
-- Node.js v18+
-- Google Gemini API Key ([Get one here](https://aistudio.google.com/app/apikey))
 
-### Installation
+
+### Installation (Local Development)
 
 ```bash
 # Clone the repository
@@ -122,6 +126,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+### Access the Live App
+
+You can use the deployed version directly at:
+
+**[https://intent-path-ai.vercel.app/](https://intent-path-ai.vercel.app/)**
+
+No installation required—just open the link in your browser.
+
 ## 🎮 Demo
 
 Try this sample prompt to see the AI in action:
@@ -129,11 +141,7 @@ Try this sample prompt to see the AI in action:
 > *"I am a software engineer from India with 5 years of experience. I want to move to a country with a good work-life balance, bring my spouse, and eventually get citizenship. My budget is moderate."*
 
 The AI will map out:
-- 🇨🇦 **Canada** — Express Entry pathway
-- 🇦🇺 **Australia** — Skilled Worker 189/190 route
-- 🇩🇪 **Germany** — EU Blue Card pathway
 
-![UI Preview](public/assets/intentpath-ui-preview.png)
 
 ## ⚖️ Ethics & Disclaimer
 
